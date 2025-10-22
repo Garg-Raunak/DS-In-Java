@@ -3,7 +3,7 @@ import java.util.*;
 class TwoSum {
 
     public static void main(String[] args) {
-        int[] arr = twoSum(new int[] { 1, 3,4,5 }, 10);
+        int[] arr = twoSum(new int[] { 1, 3,4,5,1,1 }, 10);
         for (int a : arr) {
             System.out.println(a);
         }
